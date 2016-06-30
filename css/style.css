@@ -83,3 +83,19 @@ footer.page-footer {
         margin-bottom: 1.5rem;
     }
 }
+/*======================*/
+
+.Strike{
+	
+	text-decoration: line-through;
+}
+.VisuallyHidden {
+	 opacity: 0;
+    transition: opacity .4s ease-out;
+    -moz-transition: opacity .4s ease-out;
+    -webkit-transition: opacity .4s ease-out;
+    -o-transition: opacity .4s ease-out;
+}
+.Hidden {
+	display: none;
+}
