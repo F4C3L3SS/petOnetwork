@@ -67,8 +67,8 @@ Modal Register
                     <button class="btn btn-primary btn-lg">Sign up</button>
 
                     <fieldset class="form-group">
-                        <input type="checkbox" id="checkbox1">
-                        <label for="checkbox1">Subscribe me to the newsletter</label>
+                        <input type="checkbox" id="checkbox1" class="checkboxM">
+                        <label style="font-size: 1.1rem" for="checkbox1">Subscribe me to the newsletter</label>
                     </fieldset>
                 </div>
             </div>
