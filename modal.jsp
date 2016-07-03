@@ -75,7 +75,7 @@ Modal Register
             <!--Footer-->
             <div class="modal-footer">
                 <div class="options">
-                    <p>Already have an account? <a id="abc" data-toggle="modal" data-target="#modal-login" href="#">Log in</a></p>
+                    <p>Already have an account? <a id="LogIn" data-toggle="modal" data-target="#modal-login" href="#">Log in</a></p>
                 </div>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
@@ -124,7 +124,7 @@ Modal Register
             <!--Footer-->
             <div class="modal-footer">
                 <div class="options">
-                    <p>Not a member? <a href="#">Sign Up</a></p>
+                    <p>Not a member? <a id="SignUp" data-toggle="modal" data-target="#modal-login" href="#">Sign Up</a></p>
                     <p>Forgot <a href="#">Password?</a></p>
                 </div>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -147,11 +147,16 @@ Modal Register
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
 <script type="text/javascript">
-$('#abc').on('click', function(){
-	$('#modal-register').modal('hide');
+$('#LogIn').on('click', function(){
+	$('#modal-register').modal('hide');	
+});
+
+$('#SignUp').on('click', function(){
+	$('#modal-login').modal('hide');
 	
 	
 });
+
 $('#modal-register').on('shown.bs.modal', function () {
   $('#myInput').focus();
 });
