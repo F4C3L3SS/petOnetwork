@@ -171,11 +171,17 @@ h3 {
 	position: absolute;
 	z-index: 999;
 	bottom: 2%;
-	right: 5%;	
+	right: 5%;
 	opacity: .68;
+  height: 15rem;
+  width: 15rem;
 }
 #Logo:HOVER {
 	opacity: 1;
+  -ms-transform: scale(1.1, 1.1); /* IE 9 */
+  -webkit-transform: scale(1.1, 1.1); /* Safari */
+  transform: scale(1.1, 1.1);
+
 }
 #Mini Logo{
 	position: absolute;
