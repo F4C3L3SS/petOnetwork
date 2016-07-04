@@ -57,13 +57,13 @@ footer.page-footer {
 }
 
 .carousel-item:nth-child(2) {
-    background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(4).jpg");
+    background-image: url("../Images/what-is-wet-tail-in-hamsters-51e3fb8242496.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .carousel-item:nth-child(3) {
-    background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(3).jpg");
+    background-image: url("../Images/1.21.16-flu.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
