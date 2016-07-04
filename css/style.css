@@ -166,3 +166,18 @@ h3 {
   background: #fff;
   cursor: pointer;
 }
+/*Logo*/
+#Logo{
+	position: absolute;
+	z-index: 999;
+	bottom: 2%;
+	right: 5%;	
+	opacity: .68;
+}
+#Logo:HOVER {
+	opacity: 1;
+}
+#Mini Logo{
+	position: absolute;
+	top:1%;
+}
