@@ -51,19 +51,19 @@ footer.page-footer {
 }
 
 .carousel-item:nth-child(1) {
-    background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(54).jpg");
+    background-image: url("../Images/4985392932_332ff39f3f_o.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .carousel-item:nth-child(2) {
-    background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(4).jpg");
+    background-image: url("../Images/what-is-wet-tail-in-hamsters-51e3fb8242496.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .carousel-item:nth-child(3) {
-    background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(3).jpg");
+    background-image: url("../Images/1.21.16-flu.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -86,7 +86,7 @@ footer.page-footer {
 /*======================*/
 
 .Strike{
-	
+
 	text-decoration: line-through;
 }
 .VisuallyHidden {
@@ -165,4 +165,25 @@ h3 {
   height: 1.3rem;
   background: #fff;
   cursor: pointer;
+}
+/*Logo*/
+#Logo{
+	position: absolute;
+	z-index: 999;
+	bottom: 2%;
+	right: 5%;
+	opacity: .68;
+  height: 15rem;
+  width: 15rem;
+}
+#Logo:HOVER {
+	opacity: 1;
+  -ms-transform: scale(1.1, 1.1); /* IE 9 */
+  -webkit-transform: scale(1.1, 1.1); /* Safari */
+  transform: scale(1.1, 1.1);
+
+}
+#Mini Logo{
+	position: absolute;
+	top:1%;
 }
