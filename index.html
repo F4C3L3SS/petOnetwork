@@ -433,32 +433,32 @@
 	var box1 = $('#A2');
 
 	$(document).ready(function(){
-		box1.addClass("VisuallyHidden");
-	    box1.addClass("Hidden");
+		box1.addClass("visuallyHidden");
+	    box1.addClass("hiddenText");
 	  });
 
 	$('#A1').on('mouseenter', function ()
 			{
-				box.addClass("Strike");
-	 		 	box.addClass("VisuallyHidden");
+				box.addClass("strike");
+	 		 	box.addClass("visuallyHidden");
 	 		 	$('#A1').one('transitionend webkitTransitionEnd oTransitionEnd', function () {
-	 		 	   box.addClass("Hidden");
-	 		 		if (box.hasClass('VisuallyHidden'))
+	 		 	   box.addClass("hiddenText");
+	 		 		if (box.hasClass('visuallyHidden'))
 		 		 	{
-				 	 	box1.removeClass('Hidden');
+				 	 	box1.removeClass('hiddenText');
 				 	 	setTimeout(function () {
-			 		 	box1.removeClass('VisuallyHidden');
+			 		 	box1.removeClass('visuallyHidden');
 			 	   		}, 30);
 		 		 	}
 	 		 	});
 	 		 });
 	$('#A2').on('mouseleave',function()
 	{
-		box1.toggleClass('Hidden');
-		box1.toggleClass('VisuallyHidden');
-		box.toggleClass('Hidden');
-		box.removeClass('Strike');
-		box.toggleClass('VisuallyHidden');
+		box1.toggleClass('hiddenText');
+		box1.toggleClass('visuallyHidden');
+		box.toggleClass('hiddenText');
+		box.removeClass('strike');
+		box.toggleClass('visuallyHidden');
 	}
 	)
 

@@ -84,46 +84,23 @@ footer.page-footer {
     }
 }
 /*======================*/
-
-.Strike{
+/*text-animation adopt*/
+.strike{
 
 	text-decoration: line-through;
 }
-.VisuallyHidden {
+.visuallyHidden {
 	 opacity: 0;
     transition: opacity .4s ease-out;
     -moz-transition: opacity .4s ease-out;
     -webkit-transition: opacity .4s ease-out;
     -o-transition: opacity .4s ease-out;
 }
-.Hidden {
+.hiddenText {
 	display: none;
 }
 
-.md-form label.active{
-	color : #b1cdfa;
-	font-size : .9rem;
-	font-weight : 600;
-  -webkit-transform: translateY(-30%);
-  -moz-transform: translateY(-30%);
-  -ms-transform: translateY(-30%);
-  -o-transform: translateY(-30%);
-  transform: translateY(-30%);
-}
-h3 {
-	text-align: center;
-    display: block;
-    font-size: 1.75rem;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: 300;
-}
-.modal-footer p {
-	text-align: left;
-	font-weight: 300;
-}
+
 /* materialised checkbox*/
 .checkboxM {
   position: relative;
@@ -263,11 +240,10 @@ a.socialIcon:hover, .socialHoverClass {
 	-ms-transition: all 0.8s;
 	transition: all 0.8s;
 }
-
 ul.social-network li a{
-background-color: #FFD54F;
+background-color: #BDBDBD;
 }
-
+/*Round Button*/
 .btn-floating {
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
 }
@@ -310,4 +286,29 @@ width: 86%;
 
 .md-form label{
   left: 1.2rem;
+}
+
+.md-form label.active{
+	color : #b1cdfa;
+	font-size : .9rem;
+	font-weight : 600;
+  -webkit-transform: translateY(-30%);
+  -moz-transform: translateY(-30%);
+  -ms-transform: translateY(-30%);
+  -o-transform: translateY(-30%);
+  transform: translateY(-30%);
+}
+.modal-footer p {
+	text-align: left;
+	font-weight: 300;
+}
+.modal-header> h3 {
+	text-align: center;
+    display: block;
+    font-size: 1.75rem;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: 300;
 }
