@@ -104,7 +104,7 @@ footer.page-footer {
 /* materialised checkbox*/
 .checkboxM {
   position: relative;
-  top: -0.1rem;
+  top: 0rem;
   margin: 0 .8rem 0 0;
   cursor: pointer;
 }
@@ -116,9 +116,10 @@ footer.page-footer {
   content: "";
   position: absolute;
   z-index: 1;
-  width: 1rem;
-  height: 1rem;
+  width: 1.4rem;
+  height: 1.4rem;
   border: 2px solid #009688;
+  top: -.1rem;
 }
 
 .checkboxM:checked:before {
@@ -140,7 +141,7 @@ footer.page-footer {
   left: 0;
   width: 1.3rem;
   height: 1.3rem;
-  background: #fff;
+  background-color: #fff;
   cursor: pointer;
 }
 /*Logo*/
@@ -279,10 +280,12 @@ outline: none !important;
 width: 86%;
 	}
 .md-form label{
+	color:black;
+	font-weight: 500;
   left: 1.2rem;
 }
 .md-form label.active{
-	color : #b1cdfa;
+	color :  #3949AB;
 	font-size : .9rem;
 	font-weight : 600;
   -webkit-transform: translateY(-30%);
@@ -292,8 +295,10 @@ width: 86%;
   transform: translateY(-30%);
 }
 .modal-footer p {
+	font-size:large;
 	text-align: left;
-	font-weight: 300;
+	font-weight: 400;
+	color: black;
 }
 .modal-header> h3 {
 	text-align: center;
@@ -304,4 +309,11 @@ width: 86%;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     font-weight: 300;
+}
+/*Modal Background image*/
+.modal-content{
+	background-image: url("../Images/Modal Image/Paws2.3.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+	
 }
