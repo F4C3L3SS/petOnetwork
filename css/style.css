@@ -315,5 +315,8 @@ width: 86%;
 	background-image: url("../Images/Modal Image/Paws2.3.jpg");
 	background-position: center;
 	background-size: 100% 100%;
-	
+}
+
+.modal-backdrop.in {
+	opacity: 0.6 !important;
 }
