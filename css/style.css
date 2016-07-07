@@ -57,9 +57,9 @@ footer.page-footer {
 }
 
 .carousel-item:nth-child(2) {
-    background-image: url("../Images/what-is-wet-tail-in-hamsters-51e3fb8242496.jpg");
+    background-image: url("../Images/adopt-a-pet.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw 100vh;
 }
 
 .carousel-item:nth-child(3) {
