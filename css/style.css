@@ -68,6 +68,37 @@ footer.page-footer {
     background-size: cover;
 }
 
+img#arrow1 {  /* find a new home */
+  position: absolute;
+  pointer-events: none;
+width: 35%;
+top: 40px;
+height: 170%;
+left: 650px;
+-ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    transform: rotate(-20deg);
+}
+
+img#arrow2 {  /*adopt a new pet*/
+  position: absolute;
+  pointer-events: none;
+width: 35%;
+top: -40px;
+height: 170%;
+left: 312px;
+-ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    transform: rotate(-20deg);
+}
+
+img#arrow2 + a{
+  bottom: -60px;
+}
+
+img#arrow1 + a{
+  bottom: -60px;
+}
 
 /*Caption*/
 
