@@ -151,8 +151,6 @@ footer.page-footer {
 	bottom: 2%;
 	right: 5%;
 	opacity: .68;
-  height: 15rem;
-  width: 15rem;
 }
 #Logo:HOVER {
 	opacity: 1;
@@ -319,4 +317,226 @@ width: 86%;
 
 .modal-backdrop.in {
 	opacity: 0.6 !important;
+}
+/*Image Fluid*/
+.img-fluid {
+}
+@media only screen and (max-width: 360px) {
+  .img-fluid {
+  -webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.5); /* FF3.5+ */
+      -ms-transform: scale(0.5); /* IE9 */
+       -o-transform: scale(0.5); /* Opera 10.5+ */
+          transform: scale(0.5);
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .img-fluid {
+  -webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.5); /* FF3.5+ */
+      -ms-transform: scale(0.5); /* IE9 */
+       -o-transform: scale(0.5); /* Opera 10.5+ */
+          transform: scale(0.5);
+  }
+}
+
+@media only screen and (min-width: 390px) {
+  .img-fluid {
+  -webkit-transform: scale(0.55); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.55); /* FF3.5+ */
+      -ms-transform: scale(0.55); /* IE9 */
+       -o-transform: scale(0.55); /* Opera 10.5+ */
+          transform: scale(0.55);
+  }
+}
+
+@media only screen and (min-width: 420px) {
+  .img-fluid {
+  -webkit-transform: scale(0.55); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.55); /* FF3.5+ */
+      -ms-transform: scale(0.55); /* IE9 */
+       -o-transform: scale(0.55); /* Opera 10.5+ */
+          transform: scale(0.55);
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  .img-fluid {
+   -webkit-transform: scale(0.60); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.60); /* FF3.5+ */
+      -ms-transform: scale(0.60); /* IE9 */
+       -o-transform: scale(0.60); /* Opera 10.5+ */
+          transform: scale(0.60);
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .img-fluid {
+   -webkit-transform: scale(0.60); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.60); /* FF3.5+ */
+      -ms-transform: scale(0.60); /* IE9 */
+       -o-transform: scale(0.60); /* Opera 10.5+ */
+          transform: scale(0.60);
+  }
+}
+
+@media only screen and (min-width: 510px) {
+  .img-fluid {
+    -webkit-transform: scale(0.65); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.65); /* FF3.5+ */
+      -ms-transform: scale(0.65); /* IE9 */
+       -o-transform: scale(0.65); /* Opera 10.5+ */
+          transform: scale(0.65);
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  .img-fluid {
+  -webkit-transform: scale(0.65); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.65); /* FF3.5+ */
+      -ms-transform: scale(0.65); /* IE9 */
+       -o-transform: scale(0.65); /* Opera 10.5+ */
+          transform: scale(0.65);
+  }
+}
+
+@media only screen and (min-width: 570px) {
+  .img-fluid {
+  -webkit-transform: scale(0.65); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.65); /* FF3.5+ */
+      -ms-transform: scale(0.65); /* IE9 */
+       -o-transform: scale(0.65); /* Opera 10.5+ */
+          transform: scale(0.65);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .img-fluid {
+   -webkit-transform: scale(0.7); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.7); /* FF3.5+ */
+      -ms-transform: scale(0.7); /* IE9 */
+       -o-transform: scale(0.7); /* Opera 10.5+ */
+          transform: scale(0.7);
+  }
+}
+
+@media only screen and (min-width: 630px) {
+  .img-fluid {
+  -webkit-transform: scale(0.7); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.7); /* FF3.5+ */
+      -ms-transform: scale(0.7); /* IE9 */
+       -o-transform: scale(0.7); /* Opera 10.5+ */
+          transform: scale(0.7);
+  }
+}
+
+@media only screen and (min-width: 660px) {
+  .img-fluid {
+-webkit-transform: scale(0.75); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.75); /* FF3.5+ */
+      -ms-transform: scale(0.75); /* IE9 */
+       -o-transform: scale(0.75); /* Opera 10.5+ */
+          transform: scale(0.75);
+  }
+}
+
+@media only screen and (min-width: 690px) {
+  .img-fluid {
+-webkit-transform: scale(0.75); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.75); /* FF3.5+ */
+      -ms-transform: scale(0.75); /* IE9 */
+       -o-transform: scale(0.75); /* Opera 10.5+ */
+          transform: scale(0.75);
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .img-fluid {
+-webkit-transform: scale(0.8); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.8); /* FF3.5+ */
+      -ms-transform: scale(0.8); /* IE9 */
+       -o-transform: scale(0.8); /* Opera 10.5+ */
+          transform: scale(0.8);
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .img-fluid {
+-webkit-transform: scale(0.8); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.8); /* FF3.5+ */
+      -ms-transform: scale(0.8); /* IE9 */
+       -o-transform: scale(0.8); /* Opera 10.5+ */
+          transform: scale(0.8);
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  .img-fluid {
+-webkit-transform: scale(0.85); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.85); /* FF3.5+ */
+      -ms-transform: scale(0.85); /* IE9 */
+       -o-transform: scale(0.85); /* Opera 10.5+ */
+          transform: scale(0.85);
+  }
+}
+
+@media only screen and (min-width: 810px) {
+  .img-fluid {
+-webkit-transform: scale(0.85); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.85); /* FF3.5+ */
+      -ms-transform: scale(0.85); /* IE9 */
+       -o-transform: scale(0.85); /* Opera 10.5+ */
+          transform: scale(0.85);
+  }
+}
+
+@media only screen and (min-width: 840px) {
+  .img-fluid {
+-webkit-transform: scale(0.85); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.85); /* FF3.5+ */
+      -ms-transform: scale(0.85); /* IE9 */
+       -o-transform: scale(0.85); /* Opera 10.5+ */
+          transform: scale(0.85);
+  }
+}
+
+@media only screen and (min-width: 870px) {
+  .img-fluid {
+-webkit-transform: scale(0.90); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.90); /* FF3.5+ */
+      -ms-transform: scale(0.90); /* IE9 */
+       -o-transform: scale(0.90); /* Opera 10.5+ */
+          transform: scale(0.90);
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .img-fluid {
+-webkit-transform: scale(0.95); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.95); /* FF3.5+ */
+      -ms-transform: scale(0.95); /* IE9 */
+       -o-transform: scale(0.95); /* Opera 10.5+ */
+          transform: scale(0.95);
+  }
+}
+
+@media only screen and (min-width: 930px) {
+  .img-fluid {
+-webkit-transform: scale(1); /* Saf3.1+, Chrome */
+     -moz-transform: scale(1); /* FF3.5+ */
+      -ms-transform: scale(1); /* IE9 */
+       -o-transform: scale(1); /* Opera 10.5+ */
+          transform: scale(1);
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .img-fluid {
+-webkit-transform: scale(1); /* Saf3.1+, Chrome */
+     -moz-transform: scale(1); /* FF3.5+ */
+      -ms-transform: scale(1); /* IE9 */
+       -o-transform: scale(1); /* Opera 10.5+ */
+          transform: scale(1);
+  }
 }
