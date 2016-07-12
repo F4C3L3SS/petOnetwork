@@ -57,7 +57,8 @@ footer.page-footer {
 }
 
 .carousel-item:nth-child(2) {
-    background-image: url("../Images/pet-adoption.jpg");
+    /* background-image: url("../Images/pet-adoption.jpg"); */
+    background-color: #00E5FF;  /*temporary background color */
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
@@ -339,6 +340,14 @@ width: 86%;
     -webkit-margin-end: 0px;
     font-weight: 300;
 }
+
+.md-form .prefix {
+  color: #4285F4;
+}
+.md-form .prefix.active {
+    color: #3949AB;;
+}
+
 /*Modal Background image*/
 .modal-content{
 	background-image: url("../Images/Modal Image/Paws2.3.jpg");
