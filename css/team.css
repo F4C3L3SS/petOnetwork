@@ -1,9 +1,10 @@
+/*Adoption carousal pin 0 */
 .quote-container {
-  margin-top: 50px;
+  margin-top: 5%;
   position: absolute;
-  left: 10%;
-}
 
+  float: left;
+}
 .note {
   color: #333;
   position: relative;
@@ -14,14 +15,15 @@
   font-size: 30px;
   box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
 }
-
+/*
 .note .author {
   display: block;
   margin: 40px 0 0 0;
   text-align: right;
 }
-
+*/
 .yellow {
+	float: right;
   background: #eae672;
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
@@ -81,6 +83,3 @@
   -o-transform-origin: 50% 100%;
 }
 
-img {
-  position: absolute;
-}
