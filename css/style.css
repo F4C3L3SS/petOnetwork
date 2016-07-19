@@ -57,8 +57,13 @@ footer.page-footer {
 }
 
 .carousel-item:nth-child(2) {
+
+
+background: #1A2980; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #1A2980 , #26D0CE); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #1A2980 , #26D0CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
     /* background-image: url("../Images/pet-adoption.jpg"); */
-    background-color: #00E5FF;  /*temporary background color */
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
@@ -99,6 +104,68 @@ img#arrow2 + a{
 
 img#arrow1 + a{
   bottom: -60px;
+}
+
+/* Sticky notes */
+li.stickyNotes{
+  overflow:hidden;
+  text-decoration:none;
+  color:#000;
+  background:;
+  display:block;
+  height:12rem;
+  width:15rem;
+  padding:0.1rem;
+  margin:.5rem;
+  position: absolute;
+  float:left;
+   z-index: -1;
+  /* Firefox */
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  /* Safari+Chrome */
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  /* Opera */
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+}
+
+ul li.stickyNotes:nth-child(4){
+  -o-transform:rotate(-6deg);
+  -webkit-transform:rotate(-6deg);
+  -moz-transform:rotate(-6deg);
+  top:-8rem;
+  left: 10%;
+}
+ul li.stickyNotes:nth-child(5){
+  -o-transform:rotate(10deg);
+  -webkit-transform:rotate(10deg);
+  -moz-transform:rotate(10deg);
+  width: 25rem;
+  top: -8rem;
+  left: 60%;
+}
+ul li.stickyNotes:nth-child(6){
+  -o-transform:rotate(6deg);
+  -webkit-transform:rotate(6deg);
+  -moz-transform:rotate(6deg);
+  top: 9rem;
+  left: 10%;
+}
+ul li.stickyNotes:nth-child(7){
+  -o-transform:rotate(-4deg);
+  -webkit-transform:rotate(-4deg);
+  -moz-transform:rotate(-4deg);
+  top: 11rem;
+  left: 70%;
+  width: 10rem;
+ 
+}
+
+li.stickyNotes{
+  list-style:none;
+}
+img.sticky {
+  height: 100%;
+  width: 100%;
 }
 
 /*Caption*/
@@ -579,4 +646,12 @@ width: 86%;
        -o-transform: scale(1); /* Opera 10.5+ */
           transform: scale(1);
   }
+}
+/* prevent image selection and that blue overlay over dragging images */
+img{
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
