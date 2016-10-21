@@ -1,0 +1,96 @@
+/* TEMPLATE STYLES */
+
+
+/* Necessary for full page carousel*/
+
+html,
+body {
+    height: 100%;
+}
+
+
+/* Navigation*/
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+footer.page-footer {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+
+
+/* Carousel*/
+
+.carousel {
+    height: 50%;
+}
+
+@media (max-width: 776px) {
+    .carousel {
+        height: 100%;
+    }
+}
+
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url("../Images/dog_banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item:nth-child(2) {
+  background: #1A2980; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #1A2980 , #26D0CE); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #1A2980 , #26D0CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background-image: url("http://mdbootstrap.com/images/slides/slide%20(11).jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url("../Images/1.21.16-flu.jpg");
+    /*background-image: url("http://mdbootstrap.com/images/slides/slide%20(7).jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Caption*/
+
+.flex-center {
+    color: #fff;
+}
+
+/* User Profile*/
+.row.usrNav {
+  padding-bottom: 2rem;
+}
+
+.row.profileHeading{
+  padding-bottom: 2rem;
+}
+
+hr.profileBreak {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
