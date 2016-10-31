@@ -4,6 +4,10 @@ $user = 'root';
 $pass = '';
 $db = 'petnetwork';
 
-$conn = new mysqli ('localhost', $user , $pass, $db ) or die("Unable to connect");
-
+$conn = mysqli_connect('localhost', $user , $pass, $db );
+//$conn = mysql_connect('localhost', $user, $pass);
+if(! $conn )
+{
+	die('Could not connect: ' . mysql_error());
+}
 ?>
